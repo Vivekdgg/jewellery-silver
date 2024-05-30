@@ -137,28 +137,6 @@ const CategoryButton = styled.button`
   }
 `;
 
-const SortOrder = styled.div`
-  display: flex;
-  align-items: center;
-
-  label {
-    margin-right: 10px;
-  }
-`;
-
-const SortButton = styled.button`
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #007BFF;
-  color: white;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #0056b3;
-  }
-`;
-
 const Products = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -199,15 +177,7 @@ const ProductCard = styled.div`
     color: #555;
   }
 
-  @media (max-width: 768px) {
-    flex: 1 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
 
-  @media (max-width: 600px) {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
 `;
 
 const ProductReviews = styled.div`

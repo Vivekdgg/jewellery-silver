@@ -214,7 +214,7 @@ const TechniqueDescription = styled.p`
        
       </section>
       <section className="aboutFounder">
-        <img src="/images/aboutuspic.jpg" alt="model Photo" width="300px" data-aos="fade-in"/>
+        <img src="/images/aboutuspic.jpg" alt="model" width="300px" data-aos="fade-in"/>
         <div className='textContent' data-aos="fade-right" data-aos-duration="1000">
           <h5>Shrinidhi Gehnewal</h5>
           <h3>About the Founder</h3>
